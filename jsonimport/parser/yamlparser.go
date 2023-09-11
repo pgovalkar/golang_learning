@@ -4,8 +4,8 @@ import (
 	//"fmt"
 	"bytes"
 	"fmt"
-	"jsonImport/clients/wavefront"
-	"jsonImport/core"
+	"golang_learning/jsonImport/clients/wavefront"
+	"golang_learning/jsonImport/core"
 
 	"gopkg.in/yaml.v3"
 )

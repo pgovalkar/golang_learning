@@ -1,8 +1,8 @@
 package features
 
 import (
-	"jsonImport/clients/wavefront"
-	"jsonImport/parser"
+	"golang_learning/jsonImport/clients/wavefront"
+	"golang_learning/jsonImport/parser"
 
 	"github.com/pkg/errors"
 )

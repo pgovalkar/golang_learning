@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"jsonImport/features"
+	"golang_learning/jsonImport/features"
 	//"jsonImport/cmd"
 	//"jsonImport/core"
 	//"jsonImport/clients/wavefront"
