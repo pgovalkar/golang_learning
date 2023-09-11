@@ -2,7 +2,7 @@ package cmd
 
 import (
 	"fmt"
-	"jsonImport/features"
+	"golang_learning/jsonImport/features"
 	"os"
 
 	"github.com/spf13/cobra"
@@ -31,8 +31,7 @@ func init() {
 	}
 }
 
-
-//TODO Dry run option, 
+// TODO Dry run option,
 func Migrate(cmd *cobra.Command, args []string) {
 	if directory != "" {
 		features.Bulk(directory, outputpath)

@@ -3,8 +3,8 @@ package parser
 import (
 	"encoding/json"
 	"fmt"
-	"jsonImport/clients/wavefront"
-	"jsonImport/core"
+	"golang_learning/jsonImport/clients/wavefront"
+	"golang_learning/jsonImport/core"
 )
 
 func Import(data []byte, outputpath string) {

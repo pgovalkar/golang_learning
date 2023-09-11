@@ -2,8 +2,8 @@ package features
 
 import (
 	"fmt"
-	"jsonImport/core"
-	"jsonImport/parser"
+	"golang_learning/jsonImport/core"
+	"golang_learning/jsonImport/parser"
 )
 
 func File(file_name string, outputpath string) {
