@@ -13,7 +13,6 @@ func isMonotonic(num []int) bool {
 		if num[i] > num[i+1] {
 			isDec++
 		}
-		fmt.Println(isInc, isDec)
 		if isInc != 0 && isDec != 0 {
 			return false
 		}

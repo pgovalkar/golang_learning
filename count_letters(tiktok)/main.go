@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func countLetters(in string) {
-	var curChar rune
+	curChar := ' '
 	curCount := 0
 
 	for _, char := range in {
@@ -24,6 +24,6 @@ func countLetters(in string) {
 }
 
 func main() {
-	in := "ttttiikkk ttooookkk"
+	in := "gggttthhh jjjiiiooo"
 	countLetters(in)
 }

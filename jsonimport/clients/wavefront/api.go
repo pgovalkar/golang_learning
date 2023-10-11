@@ -155,7 +155,6 @@ type WFAlertSpec struct {
 	//SeverityConditions  *SeverityConditions `json:"severityConditions,omitempty" validate:"required_without=Condition"`
 }
 
-
 // type WaveFrontAlertBasic struct {
 // 	ACL                   `json:",inline,omitempty"`
 // 	AlertType             AlertType             `json:"alertType,omitempty" validate:"omitempty,oneof=CLASSIC THRESHOLD"`
@@ -167,7 +166,6 @@ type WFAlertSpec struct {
 // 	ResolveAfterMinutes   int                   `json:"resolveAfterMinutes,omitempty" validate:"min=0"`
 // 	Tags                  []string              `json:"tags,omitempty"`
 // }
-
 
 // type SeverityConditions struct {
 // 	Info   *Condition `json:"info,omitempty" validate:"required_without_all=Warn Severe"`
